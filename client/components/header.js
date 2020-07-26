@@ -26,10 +26,10 @@ const Header = () => {
       </div>
       {toggled && (
         <div id="menu" className="block">
-          <a href="https://www.google.com/">Google</a>
           <button
             type="button"
             className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+            onClick="window.location.href='https://www.google.com/'"
           >
             <svg
               className="fill-current h-3 w-3"
